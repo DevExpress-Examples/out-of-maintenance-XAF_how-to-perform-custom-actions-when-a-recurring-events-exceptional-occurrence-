@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSchedulerEvent.Module", "CustomSchedulerEvent.Module\CustomSchedulerEvent.Module.csproj", "{21414DC5-B4C2-4060-9DD0-73814503EAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSchedulerEvent.Web", "CustomSchedulerEvent.Web\CustomSchedulerEvent.Web.csproj", "{1988816C-DCCC-451E-B473-822CA1F7E141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSchedulerEvent.Win", "CustomSchedulerEvent.Win\CustomSchedulerEvent.Win.csproj", "{9BC39244-28E3-4218-9386-FD76BD0F3A59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21414DC5-B4C2-4060-9DD0-73814503EAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21414DC5-B4C2-4060-9DD0-73814503EAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21414DC5-B4C2-4060-9DD0-73814503EAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21414DC5-B4C2-4060-9DD0-73814503EAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1988816C-DCCC-451E-B473-822CA1F7E141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1988816C-DCCC-451E-B473-822CA1F7E141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1988816C-DCCC-451E-B473-822CA1F7E141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1988816C-DCCC-451E-B473-822CA1F7E141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC39244-28E3-4218-9386-FD76BD0F3A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC39244-28E3-4218-9386-FD76BD0F3A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC39244-28E3-4218-9386-FD76BD0F3A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC39244-28E3-4218-9386-FD76BD0F3A59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
