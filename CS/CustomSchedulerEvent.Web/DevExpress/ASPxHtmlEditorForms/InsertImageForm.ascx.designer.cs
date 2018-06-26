@@ -19,7 +19,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxPanel.ASPxPanel Panel1;
+    protected global::DevExpress.Web.ASPxPanel Panel1;
     
     /// <summary>
     /// rblFromTheWeb control.
@@ -28,7 +28,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxRadioButton rblFromTheWeb;
+    protected global::DevExpress.Web.ASPxRadioButton rblFromTheWeb;
     
     /// <summary>
     /// rblFromThisComputer control.
@@ -37,7 +37,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxRadioButton rblFromThisComputer;
+    protected global::DevExpress.Web.ASPxRadioButton rblFromThisComputer;
     
     /// <summary>
     /// rpInsertImage control.
@@ -55,7 +55,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblImageUrl;
+    protected global::DevExpress.Web.ASPxLabel lblImageUrl;
     
     /// <summary>
     /// txbInsertImageUrl control.
@@ -64,7 +64,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txbInsertImageUrl;
+    protected global::DevExpress.Web.ASPxTextBox txbInsertImageUrl;
     
     /// <summary>
     /// ckbSaveToServer control.
@@ -73,7 +73,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbSaveToServer;
+    protected global::DevExpress.Web.ASPxCheckBox ckbSaveToServer;
     
     /// <summary>
     /// lblBrowse control.
@@ -82,7 +82,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblBrowse;
+    protected global::DevExpress.Web.ASPxLabel lblBrowse;
     
     /// <summary>
     /// uplImage control.
@@ -109,7 +109,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbMoreImageOptions;
+    protected global::DevExpress.Web.ASPxCheckBox ckbMoreImageOptions;
     
     /// <summary>
     /// btnInsertImage control.
@@ -118,7 +118,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnInsertImage;
+    protected global::DevExpress.Web.ASPxButton btnInsertImage;
     
     /// <summary>
     /// btnChangeImage control.
@@ -127,7 +127,7 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnChangeImage;
+    protected global::DevExpress.Web.ASPxButton btnChangeImage;
     
     /// <summary>
     /// btnInsertImageCancel control.
@@ -136,5 +136,5 @@ public partial class InsertImageForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnInsertImageCancel;
+    protected global::DevExpress.Web.ASPxButton btnInsertImageCancel;
 }

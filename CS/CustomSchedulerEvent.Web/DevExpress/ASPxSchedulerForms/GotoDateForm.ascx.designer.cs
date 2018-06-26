@@ -19,7 +19,7 @@ public partial class GotoDateForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblDate;
+    protected global::DevExpress.Web.ASPxLabel lblDate;
     
     /// <summary>
     /// edtDate control.
@@ -28,7 +28,7 @@ public partial class GotoDateForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtDate;
+    protected global::DevExpress.Web.ASPxDateEdit edtDate;
     
     /// <summary>
     /// lblView control.
@@ -37,7 +37,7 @@ public partial class GotoDateForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblView;
+    protected global::DevExpress.Web.ASPxLabel lblView;
     
     /// <summary>
     /// cbView control.
@@ -46,7 +46,7 @@ public partial class GotoDateForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbView;
+    protected global::DevExpress.Web.ASPxComboBox cbView;
     
     /// <summary>
     /// btnOk control.
@@ -55,7 +55,7 @@ public partial class GotoDateForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOk;
+    protected global::DevExpress.Web.ASPxButton btnOk;
     
     /// <summary>
     /// btnCancel control.
@@ -64,5 +64,5 @@ public partial class GotoDateForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnCancel;
+    protected global::DevExpress.Web.ASPxButton btnCancel;
 }

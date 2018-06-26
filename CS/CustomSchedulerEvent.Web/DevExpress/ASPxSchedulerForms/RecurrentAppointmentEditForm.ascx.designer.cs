@@ -19,7 +19,7 @@ public partial class RecurrentAppointmentEditForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxImage Image;
+    protected global::DevExpress.Web.ASPxImage Image;
     
     /// <summary>
     /// lblConfirm control.
@@ -28,7 +28,7 @@ public partial class RecurrentAppointmentEditForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblConfirm;
+    protected global::DevExpress.Web.ASPxLabel lblConfirm;
     
     /// <summary>
     /// rbAction control.
@@ -37,7 +37,7 @@ public partial class RecurrentAppointmentEditForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxRadioButtonList rbAction;
+    protected global::DevExpress.Web.ASPxRadioButtonList rbAction;
     
     /// <summary>
     /// btnOk control.
@@ -46,7 +46,7 @@ public partial class RecurrentAppointmentEditForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOk;
+    protected global::DevExpress.Web.ASPxButton btnOk;
     
     /// <summary>
     /// btnCancel control.
@@ -55,5 +55,5 @@ public partial class RecurrentAppointmentEditForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnCancel;
+    protected global::DevExpress.Web.ASPxButton btnCancel;
 }

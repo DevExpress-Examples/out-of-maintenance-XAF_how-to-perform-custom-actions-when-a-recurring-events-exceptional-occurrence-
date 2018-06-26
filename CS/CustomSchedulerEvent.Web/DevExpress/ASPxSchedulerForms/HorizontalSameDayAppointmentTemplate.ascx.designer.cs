@@ -46,7 +46,7 @@ public partial class HorizontalSameDayAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblStartTime;
+    protected global::DevExpress.Web.ASPxLabel lblStartTime;
     
     /// <summary>
     /// endTimeClockContainer control.
@@ -64,7 +64,7 @@ public partial class HorizontalSameDayAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblEndTime;
+    protected global::DevExpress.Web.ASPxLabel lblEndTime;
     
     /// <summary>
     /// imageContainer control.
@@ -82,5 +82,5 @@ public partial class HorizontalSameDayAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblTitle;
+    protected global::DevExpress.Web.ASPxLabel lblTitle;
 }

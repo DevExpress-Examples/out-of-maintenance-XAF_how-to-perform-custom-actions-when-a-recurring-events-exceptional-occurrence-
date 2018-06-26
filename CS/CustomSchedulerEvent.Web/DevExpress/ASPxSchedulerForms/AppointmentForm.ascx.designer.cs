@@ -19,7 +19,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblSubject;
+    protected global::DevExpress.Web.ASPxLabel lblSubject;
     
     /// <summary>
     /// tbSubject control.
@@ -28,7 +28,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox tbSubject;
+    protected global::DevExpress.Web.ASPxTextBox tbSubject;
     
     /// <summary>
     /// lblLocation control.
@@ -37,7 +37,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblLocation;
+    protected global::DevExpress.Web.ASPxLabel lblLocation;
     
     /// <summary>
     /// tbLocation control.
@@ -46,7 +46,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox tbLocation;
+    protected global::DevExpress.Web.ASPxTextBox tbLocation;
     
     /// <summary>
     /// lblLabel control.
@@ -55,7 +55,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblLabel;
+    protected global::DevExpress.Web.ASPxLabel lblLabel;
     
     /// <summary>
     /// edtLabel control.
@@ -64,7 +64,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtLabel;
+    protected global::DevExpress.Web.ASPxComboBox edtLabel;
     
     /// <summary>
     /// lblStartDate control.
@@ -73,7 +73,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblStartDate;
+    protected global::DevExpress.Web.ASPxLabel lblStartDate;
     
     /// <summary>
     /// edtStartDate control.
@@ -82,7 +82,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtStartDate;
+    protected global::DevExpress.Web.ASPxDateEdit edtStartDate;
     
     /// <summary>
     /// lblEndDate control.
@@ -91,7 +91,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblEndDate;
+    protected global::DevExpress.Web.ASPxLabel lblEndDate;
     
     /// <summary>
     /// edtEndDate control.
@@ -100,7 +100,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtEndDate;
+    protected global::DevExpress.Web.ASPxDateEdit edtEndDate;
     
     /// <summary>
     /// lblStatus control.
@@ -109,7 +109,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblStatus;
+    protected global::DevExpress.Web.ASPxLabel lblStatus;
     
     /// <summary>
     /// edtStatus control.
@@ -118,7 +118,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtStatus;
+    protected global::DevExpress.Web.ASPxComboBox edtStatus;
     
     /// <summary>
     /// chkAllDay control.
@@ -127,7 +127,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkAllDay;
+    protected global::DevExpress.Web.ASPxCheckBox chkAllDay;
     
     /// <summary>
     /// lblAllDay control.
@@ -136,7 +136,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblAllDay;
+    protected global::DevExpress.Web.ASPxLabel lblAllDay;
     
     /// <summary>
     /// lblResource control.
@@ -145,7 +145,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblResource;
+    protected global::DevExpress.Web.ASPxLabel lblResource;
     
     /// <summary>
     /// ddResource control.
@@ -154,7 +154,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxDropDownEdit ddResource;
+    protected global::DevExpress.Web.ASPxDropDownEdit ddResource;
     
     /// <summary>
     /// edtResource control.
@@ -163,7 +163,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtResource;
+    protected global::DevExpress.Web.ASPxComboBox edtResource;
     
     /// <summary>
     /// chkReminder control.
@@ -172,7 +172,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkReminder;
+    protected global::DevExpress.Web.ASPxCheckBox chkReminder;
     
     /// <summary>
     /// lblReminder control.
@@ -181,7 +181,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblReminder;
+    protected global::DevExpress.Web.ASPxLabel lblReminder;
     
     /// <summary>
     /// cbReminder control.
@@ -190,7 +190,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbReminder;
+    protected global::DevExpress.Web.ASPxComboBox cbReminder;
     
     /// <summary>
     /// tbDescription control.
@@ -199,7 +199,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxMemo tbDescription;
+    protected global::DevExpress.Web.ASPxMemo tbDescription;
     
     /// <summary>
     /// AppointmentRecurrenceForm1 control.
@@ -217,7 +217,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOk;
+    protected global::DevExpress.Web.ASPxButton btnOk;
     
     /// <summary>
     /// btnCancel control.
@@ -226,7 +226,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnCancel;
+    protected global::DevExpress.Web.ASPxButton btnCancel;
     
     /// <summary>
     /// btnDelete control.
@@ -235,7 +235,7 @@ public partial class AppointmentForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnDelete;
+    protected global::DevExpress.Web.ASPxButton btnDelete;
     
     /// <summary>
     /// schedulerStatusInfo control.
