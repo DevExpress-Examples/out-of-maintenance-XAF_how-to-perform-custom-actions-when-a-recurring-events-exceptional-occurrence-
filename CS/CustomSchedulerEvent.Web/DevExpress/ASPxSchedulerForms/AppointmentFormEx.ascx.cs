@@ -89,8 +89,8 @@ public partial class AppointmentFormEx : SchedulerFormControl {
 		base.DataBind();
 		AppointmentFormTemplateContainer container = (AppointmentFormTemplateContainer)Parent;
 		Appointment apt = container.Appointment;
-		edtLabel.SelectedIndex = apt.LabelId;
-		edtStatus.SelectedIndex = apt.StatusId;
+		edtLabel.SelectedIndex =(int) apt.LabelKey;
+		edtStatus.SelectedIndex =(int) apt.StatusKey;
 
         PopulateResourceEditors(apt, container);
 
@@ -123,7 +123,7 @@ public partial class AppointmentFormEx : SchedulerFormControl {
             ddResource.JSProperties.Add("cp_Caption_ResourceNone", stringResourceNone);
         }
         else {
-            if(!Object.Equals(apt.ResourceId, Resource.Empty.Id))
+            if(!Object.Equals(apt.ResourceId, ResourceEmpty.Id))
                 edtResource.Value = apt.ResourceId.ToString();
             else
                 edtResource.Value = SchedulerIdHelper.EmptyResourceId;
