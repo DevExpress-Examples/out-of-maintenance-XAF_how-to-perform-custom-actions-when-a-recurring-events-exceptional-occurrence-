@@ -46,7 +46,7 @@ public partial class HorizontalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblStartContinueText;
+    protected global::DevExpress.Web.ASPxLabel lblStartContinueText;
     
     /// <summary>
     /// startTimeClockContainer control.
@@ -64,7 +64,7 @@ public partial class HorizontalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblStartTime;
+    protected global::DevExpress.Web.ASPxLabel lblStartTime;
     
     /// <summary>
     /// imageContainer control.
@@ -82,7 +82,7 @@ public partial class HorizontalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblTitle;
+    protected global::DevExpress.Web.ASPxLabel lblTitle;
     
     /// <summary>
     /// endTimeClockContainer control.
@@ -100,7 +100,7 @@ public partial class HorizontalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblEndTime;
+    protected global::DevExpress.Web.ASPxLabel lblEndTime;
     
     /// <summary>
     /// lblEndContinueText control.
@@ -109,7 +109,7 @@ public partial class HorizontalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblEndContinueText;
+    protected global::DevExpress.Web.ASPxLabel lblEndContinueText;
     
     /// <summary>
     /// imgEndContinueArrow control.

@@ -46,7 +46,7 @@ public partial class VerticalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblStartTime;
+    protected global::DevExpress.Web.ASPxLabel lblStartTime;
     
     /// <summary>
     /// lblEndTime control.
@@ -55,7 +55,7 @@ public partial class VerticalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblEndTime;
+    protected global::DevExpress.Web.ASPxLabel lblEndTime;
     
     /// <summary>
     /// lblTitle control.
@@ -64,7 +64,7 @@ public partial class VerticalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblTitle;
+    protected global::DevExpress.Web.ASPxLabel lblTitle;
     
     /// <summary>
     /// horizontalSeparator control.
@@ -82,5 +82,5 @@ public partial class VerticalAppointmentTemplate {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblDescription;
+    protected global::DevExpress.Web.ASPxLabel lblDescription;
 }

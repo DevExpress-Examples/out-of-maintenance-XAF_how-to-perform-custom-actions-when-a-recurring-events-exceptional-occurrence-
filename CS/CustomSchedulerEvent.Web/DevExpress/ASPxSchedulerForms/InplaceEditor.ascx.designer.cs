@@ -19,7 +19,7 @@ public partial class InplaceEditor {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxMemo memSubject;
+    protected global::DevExpress.Web.ASPxMemo memSubject;
     
     /// <summary>
     /// btnSave control.

@@ -19,7 +19,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblSize;
+    protected global::DevExpress.Web.ASPxLabel lblSize;
     
     /// <summary>
     /// cmbSize control.
@@ -28,7 +28,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbSize;
+    protected global::DevExpress.Web.ASPxComboBox cmbSize;
     
     /// <summary>
     /// lblWidth control.
@@ -37,7 +37,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblWidth;
+    protected global::DevExpress.Web.ASPxLabel lblWidth;
     
     /// <summary>
     /// spnWidth control.
@@ -46,7 +46,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnWidth;
+    protected global::DevExpress.Web.ASPxSpinEdit spnWidth;
     
     /// <summary>
     /// lblPixelWidth control.
@@ -55,7 +55,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblPixelWidth;
+    protected global::DevExpress.Web.ASPxLabel lblPixelWidth;
     
     /// <summary>
     /// lblHeight control.
@@ -64,7 +64,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblHeight;
+    protected global::DevExpress.Web.ASPxLabel lblHeight;
     
     /// <summary>
     /// spnHeight control.
@@ -73,7 +73,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnHeight;
+    protected global::DevExpress.Web.ASPxSpinEdit spnHeight;
     
     /// <summary>
     /// lblPixelHeight control.
@@ -82,7 +82,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblPixelHeight;
+    protected global::DevExpress.Web.ASPxLabel lblPixelHeight;
     
     /// <summary>
     /// cellContarainTop control.
@@ -118,7 +118,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbCreateThumbnail;
+    protected global::DevExpress.Web.ASPxCheckBox ckbCreateThumbnail;
     
     /// <summary>
     /// lblThumbnailFileName control.
@@ -127,7 +127,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblThumbnailFileName;
+    protected global::DevExpress.Web.ASPxLabel lblThumbnailFileName;
     
     /// <summary>
     /// txbThumbnailFileName control.
@@ -136,7 +136,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txbThumbnailFileName;
+    protected global::DevExpress.Web.ASPxTextBox txbThumbnailFileName;
     
     /// <summary>
     /// lblImagePosition control.
@@ -145,7 +145,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblImagePosition;
+    protected global::DevExpress.Web.ASPxLabel lblImagePosition;
     
     /// <summary>
     /// cmbImagePosition control.
@@ -154,7 +154,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbImagePosition;
+    protected global::DevExpress.Web.ASPxComboBox cmbImagePosition;
     
     /// <summary>
     /// ckbWrapTextArroundImage control.
@@ -163,7 +163,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbWrapTextArroundImage;
+    protected global::DevExpress.Web.ASPxCheckBox ckbWrapTextArroundImage;
     
     /// <summary>
     /// lblImageDescription control.
@@ -172,7 +172,7 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblImageDescription;
+    protected global::DevExpress.Web.ASPxLabel lblImageDescription;
     
     /// <summary>
     /// txbDescription control.
@@ -181,5 +181,5 @@ public partial class ImagePropertiesForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txbDescription;
+    protected global::DevExpress.Web.ASPxTextBox txbDescription;
 }
