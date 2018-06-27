@@ -28,5 +28,5 @@ public partial class UserForms_AppointmentToolTip {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnShowMenu;
+    protected global::DevExpress.Web.ASPxButton btnShowMenu;
 }

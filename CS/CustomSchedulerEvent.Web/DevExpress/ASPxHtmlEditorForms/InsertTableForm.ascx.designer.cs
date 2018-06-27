@@ -19,7 +19,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxPanel.ASPxPanel MainPanel;
+    protected global::DevExpress.Web.ASPxPanel MainPanel;
     
     /// <summary>
     /// PanelContent1 control.
@@ -28,7 +28,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxPanel.PanelContent PanelContent1;
+    protected global::DevExpress.Web.PanelContent PanelContent1;
     
     /// <summary>
     /// rpSize control.
@@ -55,7 +55,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblSize;
+    protected global::DevExpress.Web.ASPxLabel lblSize;
     
     /// <summary>
     /// lblColumns control.
@@ -64,7 +64,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblColumns;
+    protected global::DevExpress.Web.ASPxLabel lblColumns;
     
     /// <summary>
     /// spnColumns control.
@@ -73,7 +73,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnColumns;
+    protected global::DevExpress.Web.ASPxSpinEdit spnColumns;
     
     /// <summary>
     /// lblRows control.
@@ -82,7 +82,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblRows;
+    protected global::DevExpress.Web.ASPxLabel lblRows;
     
     /// <summary>
     /// spnRows control.
@@ -91,7 +91,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnRows;
+    protected global::DevExpress.Web.ASPxSpinEdit spnRows;
     
     /// <summary>
     /// lblWidth control.
@@ -100,7 +100,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblWidth;
+    protected global::DevExpress.Web.ASPxLabel lblWidth;
     
     /// <summary>
     /// cmbWidth control.
@@ -109,7 +109,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbWidth;
+    protected global::DevExpress.Web.ASPxComboBox cmbWidth;
     
     /// <summary>
     /// txbWidth control.
@@ -118,7 +118,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit txbWidth;
+    protected global::DevExpress.Web.ASPxSpinEdit txbWidth;
     
     /// <summary>
     /// cmbWidthType control.
@@ -127,7 +127,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbWidthType;
+    protected global::DevExpress.Web.ASPxComboBox cmbWidthType;
     
     /// <summary>
     /// ckbColumnsEqualWidth control.
@@ -136,7 +136,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbColumnsEqualWidth;
+    protected global::DevExpress.Web.ASPxCheckBox ckbColumnsEqualWidth;
     
     /// <summary>
     /// lblHeight control.
@@ -145,7 +145,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblHeight;
+    protected global::DevExpress.Web.ASPxLabel lblHeight;
     
     /// <summary>
     /// cmbHeight control.
@@ -154,7 +154,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbHeight;
+    protected global::DevExpress.Web.ASPxComboBox cmbHeight;
     
     /// <summary>
     /// txbHeight control.
@@ -163,7 +163,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit txbHeight;
+    protected global::DevExpress.Web.ASPxSpinEdit txbHeight;
     
     /// <summary>
     /// cmbHeightType control.
@@ -172,7 +172,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbHeightType;
+    protected global::DevExpress.Web.ASPxComboBox cmbHeightType;
     
     /// <summary>
     /// rpLayout control.
@@ -199,7 +199,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblLayout;
+    protected global::DevExpress.Web.ASPxLabel lblLayout;
     
     /// <summary>
     /// lblPadding control.
@@ -208,7 +208,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblPadding;
+    protected global::DevExpress.Web.ASPxLabel lblPadding;
     
     /// <summary>
     /// spnPadding control.
@@ -217,7 +217,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnPadding;
+    protected global::DevExpress.Web.ASPxSpinEdit spnPadding;
     
     /// <summary>
     /// lblAlign control.
@@ -226,7 +226,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblAlign;
+    protected global::DevExpress.Web.ASPxLabel lblAlign;
     
     /// <summary>
     /// cmbAlign control.
@@ -235,7 +235,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbAlign;
+    protected global::DevExpress.Web.ASPxComboBox cmbAlign;
     
     /// <summary>
     /// lblSpacing control.
@@ -244,7 +244,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblSpacing;
+    protected global::DevExpress.Web.ASPxLabel lblSpacing;
     
     /// <summary>
     /// spnSpacing control.
@@ -253,7 +253,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnSpacing;
+    protected global::DevExpress.Web.ASPxSpinEdit spnSpacing;
     
     /// <summary>
     /// rpAppearance control.
@@ -280,7 +280,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblAppearance;
+    protected global::DevExpress.Web.ASPxLabel lblAppearance;
     
     /// <summary>
     /// lblBorderColor control.
@@ -289,7 +289,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblBorderColor;
+    protected global::DevExpress.Web.ASPxLabel lblBorderColor;
     
     /// <summary>
     /// txbBorderColor control.
@@ -298,7 +298,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxColorEdit txbBorderColor;
+    protected global::DevExpress.Web.ASPxColorEdit txbBorderColor;
     
     /// <summary>
     /// lblBorderSize control.
@@ -307,7 +307,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblBorderSize;
+    protected global::DevExpress.Web.ASPxLabel lblBorderSize;
     
     /// <summary>
     /// spnBorderSize control.
@@ -316,7 +316,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnBorderSize;
+    protected global::DevExpress.Web.ASPxSpinEdit spnBorderSize;
     
     /// <summary>
     /// lblBackgroundColor control.
@@ -325,7 +325,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblBackgroundColor;
+    protected global::DevExpress.Web.ASPxLabel lblBackgroundColor;
     
     /// <summary>
     /// txbBackgroundColor control.
@@ -334,7 +334,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxColorEdit txbBackgroundColor;
+    protected global::DevExpress.Web.ASPxColorEdit txbBackgroundColor;
     
     /// <summary>
     /// ckbAccessibility control.
@@ -343,7 +343,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbAccessibility;
+    protected global::DevExpress.Web.ASPxCheckBox ckbAccessibility;
     
     /// <summary>
     /// rpAccessibility control.
@@ -370,7 +370,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblHeaders;
+    protected global::DevExpress.Web.ASPxLabel lblHeaders;
     
     /// <summary>
     /// cmbHeaders control.
@@ -379,7 +379,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbHeaders;
+    protected global::DevExpress.Web.ASPxComboBox cmbHeaders;
     
     /// <summary>
     /// lblCaption control.
@@ -388,7 +388,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblCaption;
+    protected global::DevExpress.Web.ASPxLabel lblCaption;
     
     /// <summary>
     /// txbCaption control.
@@ -397,7 +397,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txbCaption;
+    protected global::DevExpress.Web.ASPxTextBox txbCaption;
     
     /// <summary>
     /// lblSummary control.
@@ -406,7 +406,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblSummary;
+    protected global::DevExpress.Web.ASPxLabel lblSummary;
     
     /// <summary>
     /// txbSummary control.
@@ -415,7 +415,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txbSummary;
+    protected global::DevExpress.Web.ASPxTextBox txbSummary;
     
     /// <summary>
     /// btnOk control.
@@ -424,7 +424,7 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOk;
+    protected global::DevExpress.Web.ASPxButton btnOk;
     
     /// <summary>
     /// btnCancel control.
@@ -433,5 +433,5 @@ public partial class InsertTableForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnCancel;
+    protected global::DevExpress.Web.ASPxButton btnCancel;
 }

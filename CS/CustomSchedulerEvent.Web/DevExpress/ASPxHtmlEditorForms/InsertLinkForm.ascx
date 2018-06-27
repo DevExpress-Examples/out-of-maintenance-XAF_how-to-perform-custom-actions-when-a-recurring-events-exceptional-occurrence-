@@ -13,9 +13,9 @@
 {************************************************************************************}
 --%>
 <%@ Control Language="C#" AutoEventWireup="true" Codebehind="InsertLinkForm.ascx.cs" Inherits="InsertLinkFrom" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.1" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dxp" %>
+<%@ Register Assembly="DevExpress.Web.v14.2" Namespace="DevExpress.Web" TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v14.2" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
+<%@ Register Assembly="DevExpress.Web.v14.2" Namespace="DevExpress.Web" TagPrefix="dxp" %>
 <dxp:ASPxPanel ID="MainPanel" runat="server" Width="100%" DefaultButton="btnOk">
     <PanelCollection>
         <dxp:PanelContent runat="server">

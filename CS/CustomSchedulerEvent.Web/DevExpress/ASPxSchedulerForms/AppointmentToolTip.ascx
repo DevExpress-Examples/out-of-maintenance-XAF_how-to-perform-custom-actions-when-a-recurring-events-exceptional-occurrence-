@@ -1,5 +1,5 @@
 <%@ Control Language="C#" AutoEventWireup="true" Inherits="UserForms_AppointmentToolTip" Codebehind="AppointmentToolTip.ascx.cs" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors"
+<%@ Register Assembly="DevExpress.Web.v14.2" Namespace="DevExpress.Web"
     TagPrefix="dxe" %>
 <div runat="server" id="buttonDiv">
     <dxe:ASPxButton ID="btnShowMenu" runat="server" AutoPostBack="False" AllowFocus="False">

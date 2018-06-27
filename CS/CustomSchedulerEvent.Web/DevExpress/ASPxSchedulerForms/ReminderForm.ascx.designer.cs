@@ -19,7 +19,7 @@ public partial class ReminderForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxListBox lbItems;
+    protected global::DevExpress.Web.ASPxListBox lbItems;
     
     /// <summary>
     /// btnDismissAll control.
@@ -28,7 +28,7 @@ public partial class ReminderForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnDismissAll;
+    protected global::DevExpress.Web.ASPxButton btnDismissAll;
     
     /// <summary>
     /// btnDismiss control.
@@ -37,7 +37,7 @@ public partial class ReminderForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnDismiss;
+    protected global::DevExpress.Web.ASPxButton btnDismiss;
     
     /// <summary>
     /// lblClickSnooze control.
@@ -46,7 +46,7 @@ public partial class ReminderForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblClickSnooze;
+    protected global::DevExpress.Web.ASPxLabel lblClickSnooze;
     
     /// <summary>
     /// cbSnooze control.
@@ -55,7 +55,7 @@ public partial class ReminderForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbSnooze;
+    protected global::DevExpress.Web.ASPxComboBox cbSnooze;
     
     /// <summary>
     /// btnSnooze control.
@@ -64,5 +64,5 @@ public partial class ReminderForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnSnooze;
+    protected global::DevExpress.Web.ASPxButton btnSnooze;
 }
