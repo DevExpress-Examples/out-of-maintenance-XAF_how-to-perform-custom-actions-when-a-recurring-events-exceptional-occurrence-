@@ -13,16 +13,16 @@
 {************************************************************************************}
 --%>
 <%@ Control Language="C#" AutoEventWireup="true" Codebehind="TableColumnPropertiesForm.ascx.cs" Inherits="TableColumnPropertiesForm" %>
-<%@ Assembly name="DevExpress.Data.v13.1" %>
-<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.1" Namespace="DevExpress.Web.ASPxHtmlEditor"
+<%@ Assembly name="DevExpress.Data.v13.2" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.2" Namespace="DevExpress.Web.ASPxHtmlEditor"
     TagPrefix="dxhe" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors"
+<%@ Register Assembly="DevExpress.Web.v13.2" Namespace="DevExpress.Web.ASPxEditors"
     TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxPanel"
+<%@ Register Assembly="DevExpress.Web.v13.2" Namespace="DevExpress.Web.ASPxPanel"
     TagPrefix="dxp" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.1" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dxp" %>
+<%@ Register Assembly="DevExpress.Web.v13.2" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.2" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
+<%@ Register Assembly="DevExpress.Web.v13.2" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dxp" %>
 <dxp:ASPxPanel ID="MainPanel" runat="server" Width="100%" DefaultButton="btnChange">
     <panelcollection>
         <dxp:PanelContent ID="PanelContent1" runat="server">
