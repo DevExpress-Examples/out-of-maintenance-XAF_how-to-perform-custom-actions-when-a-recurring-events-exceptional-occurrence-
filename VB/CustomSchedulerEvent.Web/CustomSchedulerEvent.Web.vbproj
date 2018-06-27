@@ -7,10 +7,9 @@
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1988816C-DCCC-451E-B473-822CA1F7E141}</ProjectGuid>
-    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomSchedulerEvent.Web</RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>CustomSchedulerEvent.Web</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
@@ -19,25 +18,41 @@
     <UpgradeBackupLocation />
     <TargetFrameworkProfile />
     <UseIISExpress>false</UseIISExpress>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Printing.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
@@ -176,38 +191,38 @@
     <Content Include="XAFControlsStyle.css" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.designer.cs">
+    <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Error.aspx.designer.cs">
+    <Compile Include="Error.aspx.designer.vb">
       <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
+    <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
+    <Compile Include="Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ApplicationCode\WebApplication.cs">
+    <Compile Include="ApplicationCode\WebApplication.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Default.aspx.cs">
+    <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Error.aspx.cs">
+    <Compile Include="Error.aspx.vb">
       <DependentUpon>Error.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.cs">
+    <Compile Include="Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ApplicationCode\WebApplication.resx">
-      <DependentUpon>WebApplication.cs</DependentUpon>
+      <DependentUpon>WebApplication.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
@@ -221,7 +236,7 @@
     <Folder Include="Bin\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomSchedulerEvent.Module\CustomSchedulerEvent.Module.csproj">
+    <ProjectReference Include="..\CustomSchedulerEvent.Module\CustomSchedulerEvent.Module.vbproj">
       <Project>{21414DC5-B4C2-4060-9DD0-73814503EAE5}</Project>
       <Name>CustomSchedulerEvent.Module</Name>
     </ProjectReference>
@@ -230,21 +245,21 @@
     <Content Include="DevExpress\ASPxSchedulerForms\SelectionToolTip.ascx" />
     <Content Include="DevExpress\ASPxSchedulerForms\AppointmentToolTip.ascx" />
     <Content Include="DevExpress\ASPxSchedulerForms\AppointmentDragToolTip.ascx" />
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentDragToolTip.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentDragToolTip.ascx.designer.vb">
       <DependentUpon>AppointmentDragToolTip.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentToolTip.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentToolTip.ascx.designer.vb">
       <DependentUpon>AppointmentToolTip.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\SelectionToolTip.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\SelectionToolTip.ascx.vb">
       <DependentUpon>SelectionToolTip.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentToolTip.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentToolTip.ascx.vb">
       <DependentUpon>AppointmentToolTip.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentDragToolTip.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentDragToolTip.ascx.vb">
       <DependentUpon>AppointmentDragToolTip.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -258,67 +273,67 @@
     <Content Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx" />
     <Content Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx" />
     <Content Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx" />
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx.designer.vb">
       <DependentUpon>AppointmentForm.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentFormEx.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentFormEx.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentFormEx.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentFormEx.ascx.designer.vb">
       <DependentUpon>AppointmentFormEx.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx.designer.vb">
       <DependentUpon>GotoDateForm.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx.designer.vb">
       <DependentUpon>HorizontalAppointmentTemplate.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx.designer.vb">
       <DependentUpon>HorizontalSameDayAppointmentTemplate.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx.designer.vb">
       <DependentUpon>InplaceEditor.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx.designer.vb">
       <DependentUpon>RecurrentAppointmentDeleteForm.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx.designer.vb">
       <DependentUpon>RecurrentAppointmentEditForm.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalSameDayAppointmentTemplate.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\ReminderForm.ascx.designer.vb">
       <DependentUpon>ReminderForm.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\SelectionToolTip.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\SelectionToolTip.ascx.designer.vb">
       <DependentUpon>SelectionToolTip.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\HorizontalAppointmentTemplate.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentEditForm.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\RecurrentAppointmentDeleteForm.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\InplaceEditor.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\GotoDateForm.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\AppointmentForm.ascx.vb">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx.designer.cs">
+    <Compile Include="DevExpress\ASPxSchedulerForms\VerticalAppointmentTemplate.ascx.designer.vb">
       <DependentUpon>VerticalAppointmentTemplate.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -327,10 +342,10 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
