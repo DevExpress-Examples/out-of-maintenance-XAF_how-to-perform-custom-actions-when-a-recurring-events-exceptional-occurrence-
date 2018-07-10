@@ -13,7 +13,7 @@
 {************************************************************************************}
 --%>
 <%@ Control Language="vb" AutoEventWireup="true" Codebehind="ImagePropertiesForm.ascx.vb" Inherits="ImagePropertiesForm" %>
-<%@ Register Assembly="DevExpress.Web.v18.1" Namespace="DevExpress.Web" TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.v14.2" Namespace="DevExpress.Web" TagPrefix="dxe" %>
 <table cellpadding="0" cellspacing="0" id="dxImagePropertiesForm">
     <tr>
         <td>
